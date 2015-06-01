@@ -37,4 +37,4 @@ After completing this assignment, you should be able to effectively use:
 
 Create a new Github repo and add [./exercises-1.js](./exercises-1.js) and [index.html](index.html) to it. Make your edits to the functions in the "exercises-1" file.
 
-Instead of using the browser and the Chrome Dev Tools console to look at your JS output, use `node exercises-1.js` to print the output to your terminal.
+Using the browser and the Chrome Dev Tools console, look at your JS output.
