@@ -45,7 +45,7 @@ After completing this assignment, you be able to effectively use
 2. Create a `main.js` file and link it to your `index.html` file
 3. Using the DOM API and the elements on the page, set up the following:
 
-    * When I click the "calculate" button, the values in the first box should be added, subtracted, multiplied or divided by the value in the second box.
+    * You will need to create 4 buttons that will have click events attached to them, of each, they will add, subtract, multiply, and divide respectively, effectively combining the 2 input values entered on the page.
     * You'll need to convert the values to a number (think `Number(value)`) in order to process them.
     * Your output should be injected into the answer element
 
