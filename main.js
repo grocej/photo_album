@@ -4,6 +4,13 @@ $(document).ready(function() {
 //Add a click event to a button
   $('.home').removeClass('invisible')
 
+
+  $('.album-1-button').on('click', function(event){
+    console.log('CLICK ME!!')
+    event.preventDefault();
+    $('.home').addClass('invisible');
+
+  });
 });
 // $(".album1").on('click', 'threePage', $target) {
 //   event.preventDefault();
