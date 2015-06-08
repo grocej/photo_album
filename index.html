@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <title>Photo Album Week 3</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
   <!-- My Albums header -->
   <section class="header" id="mainPage">
@@ -21,7 +21,7 @@
       <div class="container1">
           <div class="buttonRow">
               <ul>
-                <li><button type="button" name="navButton1">album 1<!--me--></button></li>
+                <li><button type="button" name="navButton1" id='album-1-button'>album 1<!--me--></button></li>
                 <li><button type="button" name="navButton2">album 2<!--the dog--></button></li>
                 <li><button type="button" name="navButton3">album 3<!--comedy--></button></li>
                 <li><button type="button" name="navButton4">album 4<!--illustration--></button></li>
@@ -31,41 +31,46 @@
           </div>
       </div>
       <!--Main Page containers, Top row here-->
-      <div class="container2" id="topRow">
-        <div class="firstRow">
-          <div class="album1" id="albumBox">
-              <img class="seesaw" src="images/seesawpic.jpg"/>
-              <span><h5>album one</h5></span>
+      <div class='home invisible'>
+        <div class="container2" id="topRow">
+          <div class="firstRow">
+            <div class="album1" id="albumBox">
+                <img class="seesaw" src="images/seesawpic.jpg"/>
+                <span><h5>album one</h5></span>
+            </div>
+            <div class="album2" id="albumBox">
+                <img class="newYear" src="images/new_year.jpg"/>
+                <span><h5>album two</h5></span>
+            </div>
+            <div class="album3" id="albumBox">
+                <img class="comedyPour" src="images/comedy_pour.jpg">
+                <span><h5>album three</h5></span>
+           </div>
           </div>
-          <div class="album2" id="albumBox">
-              <img class="newYear" src="images/new_year.jpg"/>
-              <span><h5>album two</h5></span>
-          </div>
-          <div class="album3" id="albumBox">
-              <img class="comedyPour" src="images/comedy_pour.jpg">
-              <span><h5>album three</h5></span>
-         </div>
         </div>
-      </div>
-       <div class="container3" id="bottomRow">
-        <div class="secondRow">
-          <div class="album4" id="albumBox">
-            <img class="foxhole" src="images/foxhole_postcard.jpg"/>
-            <span><h5>album four</h5></span>
-          </div>
-          <div class="album5" id="albumBox">
-            <img class="smackD" src="images/smackdown_poster.jpg"/>
-            <span><h5>album five</h5></span>
-          </div>
-          <div class="album6" id="albumBox">
-            <img class="tromLogo" src="images/trom_logo.jpg"/>
-            <span><h5>album six</h5></span>
+         <div class="container3" id="bottomRow">
+          <div class="secondRow">
+            <div class="album4" id="albumBox">
+              <img class="foxhole" src="images/foxhole_postcard.jpg"/>
+              <span><h5>album four</h5></span>
+            </div>
+            <div class="album5" id="albumBox">
+              <img class="smackD" src="images/smackdown_poster.jpg"/>
+              <span><h5>album five</h5></span>
+            </div>
+            <div class="album6" id="albumBox">
+              <img class="tromLogo" src="images/trom_logo.jpg"/>
+              <span><h5>album six</h5></span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 <!-- Individual Pages -->
+<div class='indiviudal-albums visibility'  >
   <div class="albums">
+
+
     <article class="threePage" id="mePage">
       <!--The ME page-->
         <!--All 3-->
@@ -80,6 +85,8 @@
         <img src="images/gaines_proud.jpg"/>
         <img src="images/gaines_treat.jpg"/>
     </article>
+
+
     <article class="threePage" id="comedyPage">
       <!--COMEDY page-->
           <!--All 3-->
@@ -103,12 +110,15 @@
     </article>
     <article class="threePage" id="tinRoofPage">
       <!--Tin Roof Illustration Box-->
-          <!--All 3-->
+          All 3
         <img src="images/trom_logo.jpg"/>
         <img src="images/tin_roof5.jpg"/>
         <img src="images/caesars.jpg"/>
     </article>
   </div>
+
+
+</div> <!-- END OF INDIVIDUAL ALBUMS -->
 <!--Individual Pics-->
   <div class="indivContain">
     <article class="indivPic">
@@ -197,13 +207,8 @@
   </div>
 
 
-
-
-
 <script type="text/javascript" src="bower_components/underscore/underscore.js"> </script>
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
-<script type="text/javascript" src="bower_components/bootstrap.js"> </script>
 <script type="text/javascript" src="main.js"></script>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </body>
 </html>

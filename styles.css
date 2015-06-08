@@ -1,6 +1,12 @@
 body {
   background-color: #000038;
+  /* visibility: hidden; */
 }
+
+.invisible {
+  display: none;
+}
+
 .header {
   background-color: #000038;
   border-bottom: 1px dotted white;
@@ -33,7 +39,6 @@ body {
   display: inline-flex;
   width: 100%;
   text-align: center;
-  
 }
 .albums {
   width:80%
@@ -149,7 +154,4 @@ h1 {
   width: 100%;
   margin: 0 auto;
 }
-#mePage {
-  width: 80%;
-  margin: 0 auto;
-}
+#mePage {}
