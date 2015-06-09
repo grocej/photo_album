@@ -5,12 +5,59 @@ $(document).ready(function() {
   $('.home').removeClass('invisible')
 
 
-  $('.album-1-button').on('click', function(event){
+  $('body').on('click', '#album-1-button', function(event) {
     console.log('CLICK ME!!')
     event.preventDefault();
-    $('.home').addClass('invisible');
+    $('.home').remove();
+    $('#mePage').removeClass('invisible');
+    $('.threePage invisible').remove();
+  });
+
+
+  $('body').on('click', '#album-2-button', function(event) {
+    console.log('Number two on you!')
+    event.preventDefault();
+    $('.home').remove();
+    $('#gainesPage').removeClass('invisible');
+    $('threePage invisible').remove();
+  });
+
+  $('body').on('click', '#album-3-button', function(event) {
+    console.log('Now me!')
+    event.preventDefault();
+    $('.home').remove();
+    $('#comedyPage').removeClass('invisible');
+    $('threePage invisible').remove();
 
   });
+
+  $('body').on('click', '#album-4-button', function(event) {
+    console.log("It's button four!")
+    event.preventDefault();
+    $('.home').remove();
+    $('#illusLogoPage').removeClass('invisible');
+    $('threepage invisible').remove();
+
+  });
+
+    $('body').on('click', '#album-5-button', function(event) {
+      console.log("Button five!")
+      event.preventDefault();
+      $('.home').remove();
+      $('#midIllusPage').removeClass('invisible');
+      $('threePage invisible').remove();
+
+  });
+
+    $('body').on('click', '#album-6-button', function(event) {
+      console.log("Here's to six!!")
+      event.preventDefault();
+      $('.home').remove();
+      $('#tinRoofPage').removeClass('invisible');
+      $('threePage invisible').remove();
+
+  });
+
 });
 // $(".album1").on('click', 'threePage', $target) {
 //   event.preventDefault();

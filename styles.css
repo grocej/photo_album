@@ -29,6 +29,10 @@ body {
   float: right;
   margin-right: 10%;
 }
+#midIllusPage {
+  width: 80%;
+  margin: 0 auto;
+}
 .firstRow {
   display:inline-flex;
   width: 100%;
